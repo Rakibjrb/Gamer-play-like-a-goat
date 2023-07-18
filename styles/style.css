@@ -8,6 +8,8 @@
 }
 body{
     font-family: Work Sans, sans-serif;
+    max-width: 1366px;
+    margin: 0 auto;
 }
 a{
     transition: 0.5s;
@@ -67,7 +69,15 @@ nav .menu .followus{
     padding: 8px 20px;
     border-radius: 5px;
 }
+nav .menu .followus:hover{
+    background: #757373;
+    color: #ffffff;
+    cursor: pointer;
+}
 nav .menu .followus .fa-youtube{
     color: #ff0f0f;
     margin: 0 10px;
+}
+nav .menu .followus .fa-tiktok:hover{
+    color: #ffffff;
 }
