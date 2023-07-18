@@ -164,7 +164,7 @@ nav .menu .followus .fa-tiktok:hover{
     text-align: center;
     font-size: 36px;
 }
-#online-games .title-half-style{
+.title-half-style{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -188,4 +188,41 @@ nav .menu .followus .fa-tiktok:hover{
 #online-games .game-carts .cart p{
     font-size: 14px;
     margin-top: 8px;
+}
+
+/* play instant game section styles */
+
+#instant-game{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#instant-game .instant-game-content{
+    width: 45%;
+}
+#instant-game .instant-game-content h2{
+    font-size: 36px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+#instant-game .instant-game-content p{
+    text-align: right;
+    width: 70%;
+    margin: 0 0 0 30%;
+    line-height: 1.5rem;
+}
+#instant-game .instant-game-pic{
+    width: 40%;
+}
+#instant-game .instant-game-pic .instant-main-pic{
+    width: 100%;
+}
+#instant-game .instant-game-pic .instant-secondery-pic{
+    width: 40%;
+    position: relative;
+    top: -140px;
+    left: -60px;
 }
