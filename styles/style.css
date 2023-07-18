@@ -153,3 +153,39 @@ nav .menu .followus .fa-tiktok:hover{
 #banner .inner-banner .banner-image img{
     width: 100%;
 }
+
+/* online games funny videos section styles */
+
+#online-games{
+    max-width: 80%;
+    margin: 100px auto;
+}
+#online-games h2{
+    text-align: center;
+    font-size: 36px;
+}
+#online-games .title-half-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#online-games .online-games-desc{
+    text-align: center;
+    margin: 10px 0 0;
+}
+#online-games .game-carts{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#online-games .game-carts .cart{
+    width: 23%;
+}
+#online-games .game-carts .cart img{
+    width: 100%;
+}
+#online-games .game-carts .cart p{
+    font-size: 14px;
+    margin-top: 8px;
+}

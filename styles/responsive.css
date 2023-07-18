@@ -72,6 +72,24 @@
     #banner .inner-banner .banner-image {
         width: 100%;
     }
+    /* online games funny videos section styles */
+
+    #online-games h2{
+        font-size: 22px;
+    }
+    #online-games .online-games-desc{
+        font-size: 12px;
+    }
+    #online-games .game-carts{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #online-games .game-carts .cart{
+        width: 100%;
+    }
+    #online-games .game-carts .cart img{
+        width: 100%;
+    }
 }
 
 /* responsive for tablet devices */
@@ -139,4 +157,24 @@
         #banner .inner-banner .banner-image {
             width: 100%;
         }
+
+        /* online games funny videos section styles */
+
+    #online-games h2{
+        font-size: 30px;
+    }
+    #online-games .online-games-desc{
+        font-size: 16px;
+    }
+    #online-games .game-carts{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    #online-games .game-carts .cart{
+        width: 47%;
+    }
+    #online-games .game-carts .cart img{
+        width: 100%;
+    }
 }
