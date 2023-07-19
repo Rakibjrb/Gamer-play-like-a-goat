@@ -191,6 +191,51 @@ nav .menu .followus .fa-tiktok:hover{
     margin-top: 8px;
 }
 
+/* watch now hover making */
+.video-div{
+    position: relative;
+    overflow: hidden;
+}
+.video-div .hidden-div{
+    position: absolute;
+    top: 10000px;
+    left: 0;
+    background: #000000a6;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.video-div:hover .hidden-div{
+    top: 0;
+}
+.video-div .hidden-div .click-and-watch{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.video-div .circle-play-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 16px;
+  }
+  
+  .video-div .circle-play-button i {
+    color: #000;
+  }
+  .video-div p {
+    color: #F948B2;
+    text-align: center;
+  }
+
 /* play instant game section styles */
 
 #instant-game{
