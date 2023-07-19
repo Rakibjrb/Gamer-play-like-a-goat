@@ -233,7 +233,8 @@ nav .menu .followus .fa-tiktok:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0 100px;
+    padding: 100px 0 100px;
+    background: #f5efef;
 }
 #tags .all-tags{
     max-width: 80%;
@@ -257,10 +258,11 @@ nav .menu .followus .fa-tiktok:hover{
 #tags .all-tags li{
     padding: 7px 10px;
     transition: 0.5s;
+    background: #ffffff;
+    border-radius: 50px;
 }
 #tags .all-tags li:hover{
     border: 1px solid #FF42A5;
-    border-radius: 50px;
 }
 #tags .all-tags li:hover a{
     color: #F948B2;
@@ -294,18 +296,35 @@ footer .footer-logo img{
 footer .footer-logo h2{
     color: #fff;
 }
-footer .site-tag ul{
+footer .site-tag{
     display: flex;
     gap: 30px;
     margin: 20px 0;
     list-style: none;
 }
-footer .site-tag ul li a{
+footer .site-tag li a{
     text-decoration: none;
     color: #fff;
     transition: .5s;
 }
-footer .site-tag ul li a:hover{
+footer .site-tag li a:hover{
+    cursor: pointer;
+    color: #F948B2;
+}
+
+footer .social-links ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+}
+footer .social-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+    font-size: 24px;
+}
+footer .social-links ul li a:hover{
     cursor: pointer;
     color: #F948B2;
 }
