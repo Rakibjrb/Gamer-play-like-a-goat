@@ -120,6 +120,20 @@
         top: -70px;
         left: -10px;
     }
+
+    /* online games all tag section */
+    #tags .all-tags{
+        max-width: 90%;
+        gap: 4px;
+    }
+    #tags .all-tags li a{
+        font-size: 8px;
+    }
+    #tags .all-tags li a img{
+        width: 10px;
+        height: 10px;
+        margin-right: 6px;
+    }
 }
 
 /* responsive for tablet devices */
